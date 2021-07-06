@@ -1,20 +1,11 @@
 {
-  "name": "node-hello",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "First CI app",
+  "dependencies": {
+    "lodash": "*"
+  },
   "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
-  },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+    "lint": "echo 'Linting!'",
+    "build": "echo 'Running a build!'",
+    "test": "echo 'Running unit tests!'",
+  }
 }
